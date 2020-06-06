@@ -1,0 +1,26 @@
+{
+  "name": "with-ssr-entry",
+  "description": "next ssr css",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoxiaojx/with-ssr-entry.git"
+  },
+  "author": "xiaojiaxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoxiaojx/with-ssr-entry/issues"
+  },
+  "homepage": "https://github.com/xiaoxiaojx/with-ssr-entry#readme",
+  "devDependencies": {
+    "@types/webpack": "^4.41.17",
+    "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}
