@@ -1,6 +1,8 @@
 ## with-ssr-entry
-```
-// Fix the wthat appears below
+> https://github.com/xiaoxiaojx/blog/issues/40
+
+```js
+// Fix the following problem with the build in next.js
 
 > Build error occurred
 { /xxx/node_modules/pkg/index.scss:1
@@ -13,12 +15,12 @@ SyntaxError: Invalid or unexpected token
 
 ## install
 
-```
-$ yarn add with-ssr-entry
+```bash
+yarn add with-ssr-entry
 ```
 
 ## example
-```
+```js
 // next.config.js
 
 const withSsrEntry = require('with-ssr-entry')

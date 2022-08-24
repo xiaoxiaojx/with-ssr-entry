@@ -20,5 +20,10 @@ export function ignoreCssFiles() {
     require.extensions['.sass'] = () => {}
     require.extensions['.less'] = () => {}
     require.extensions['.css'] = () => {}
+    require.extensions['.png'] = () => {}
+    require.extensions['.jpg'] = () => {}
+    require.extensions['.jpeg'] = () => {}
+    require.extensions['.svg'] = () => {}
+    require.extensions['.svga'] = () => {}
   }
 }
