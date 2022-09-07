@@ -38,7 +38,7 @@ export default function (nextConfig: Record<string, any> = {}) {
           };
         }
       }
-      if(config.module.rules[3].oneOf){
+      if(config.module?.rules[3].oneOf){
         // @ts-ignore
         config.module.rules[3].oneOf = config.module.rules[3].oneOf.filter(
           // @ts-ignore
